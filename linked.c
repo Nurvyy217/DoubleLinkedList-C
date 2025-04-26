@@ -31,7 +31,7 @@ addressKota Alokasi(const char *namaKota)
     /* Kamus Lokal */
     addressKota P;
     /* Algoritma */
-    P = (addressKota)malloc(sizeof(ElmtList));
+    P = (addressKota)malloc(sizeof(dataKota));
     if (P != Nil) /* Alokasi berhasil */
     {
         namaKota(P) = strdup(namaKota); 
